@@ -1,22 +1,18 @@
 /**
- * OOPSBannerApp
- * Displays "OOPS" as a 7-line ASCII banner using print statements.
- *
- * @author Nilesh
- * @version 2.0
+ * UC3 - Full OOPS Banner using String.join(" ", ...)
+ 
  */
-public class OOPSBannerApp {
-
+public class stepoops{
     public static void main(String[] args) {
 
-        System.out.println("*** *** *** ***");
-        System.out.println("* * * * * * *  ");
-        System.out.println("* * * * * * *  ");
-        System.out.println("* * * * *** ***");
-        System.out.println("* * * * *     *");
-        System.out.println("* * * * *     *");
-        System.out.println("*** *** *   ***");
-        
+        // Hint: Use String.join(" ", ...) to join the parts of each line with spaces.
+        System.out.println(String.join("   ", "   ***  ", "   ***  ", "  *****  ", "  ***** "));
+        System.out.println(String.join("   ", " **   **", " **   **", " **   **", " **     "));
+        System.out.println(String.join("   ", "**     **", "**     **", "**   **", "**      "));
+        System.out.println(String.join("   ", "**     **", "**     **", "*****   ", " *****  "));
+        System.out.println(String.join("   ", "**     **", "**     **", "**      ", "      **"));
+        System.out.println(String.join("   ", " **   ** ", " **   ** ", "**      ", " **   **"));
+        System.out.println(String.join("   ", "  ***    ", "  ***    ", "**      ", "   ***   "));
 
     }
 }
